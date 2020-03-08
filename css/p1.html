@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>page 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="p2.html">p2</a>
+      <a href="p3.html">p3</a>
+      <a href="p4.html">p4</a>
+    </nav>
+    <h1>選擇器優先權 CSS selector specificity</h1>
+    <p>
+      <ul>
+        <li>style.css 要放在title前方，否則讀取可能會有問題</li>
+        <li>優先權重點：<span class="focus">明確性</span>，先看明確性再談強度和順序</li>
+        <li class="focus">!important > inline style > #id > .class > Tag > * > 繼承inheritance</li>
+        <li>class="male human" <br>
+          >有兩個class > 若同時呼叫，後者會蓋掉前者.male{ color: red} .human{color: green} > green </li>
+        <li>一個#id只能用一次</li>
+        <li>class可以多次使用</li>
+        <li>* { } 通用選取器： 可選所有標籤<br>
+        常用於一開始統一所有文字大小、顏色 or 可針對某一class做全選編輯</li>
+        <li>文字相關屬性常出現繼承</li>
+      </ul>
+    <h1>position</h1>
+
+    <p>
+      <h1>box</h1>
+      <ul>
+        <li>可見寬度： width代表文字內容寬度</li>
+        <li>常見網頁寬度：960px</li>
+        <li>文繞圖： float: left or right; </li>
+        <li>margin:  all ／（上下） （左右）／上 （左右） 下／上 右 下 左  </li>
+        <li>block tag: div, h1, p... <br> selector { display: inline or block or inline-block } 可以改</li>
+        <li>偏移顯示： 設定Relative後，left/ top..才有作用、此外z-index可以調整顯示優先順序</li>
+        <li>絕對定位：假設有ABC三個區塊，若最下方的C區塊有position: absolute，C還會去看B>A父層有沒有“Relative/Absolute/Fix?”</li>
+        <li>day 16: 絕對定位，Hot標籤</li>
+        <li></li>
+        <li></li>
+      </ul>
+    </p>
+    
+    <h1>reset</h1>
+    <h1>切版</h1>
+    <h1>inline block</h1>
+    <h1>flex</h1>
+    <h1>RWD</h1>
+
+    <h1>專題： 網頁設計流程</h1>
+    <div>CSS Day 2, 15:57</div>
+    <ol>
+      <li>主題
+        <span>規劃畫面、功能</span>
+        <span>wireframe(分頁）<br>
+          <strong>務必驗證每一個分頁跳轉, 並吸引消費者code to action (user experience)</strong></span><br>
+          
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+    </p>
+    <div>
+      Mollitia quidem qui voluptas incidunt doloremque, <span class="tip"> fugit
+      praesentium iusto totam!
+     </span>Expedita nulla explicabo rem ratione eius tempora
+      numquam adipisci, eum rerum sapiente, asperiores consectetur dicta labore
+      impedit reprehenderit neque!
+    </div>
+    
+     
+    </p>
+    <p>
+      Iste sint voluptas assumenda similique, placeat illum. Fuga atque nesciunt
+      <span class="tip"> fugit
+        praesentium iusto totam! </span>
+      nihil, omnis ab perferendis numquam consequatur totam sequi, laborum
+      dolorem ipsum.
+    </p>
+  </body>
+</html>

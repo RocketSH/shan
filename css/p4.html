@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page 4: flex</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+      body {
+        padding-top: 60px;
+      }
+      nav {
+        background-color: #000000;
+        opacity: 0.6;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      nav a {
+        color: whitesmoke;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 10px;
+      }
+      .wrap {
+        width: 960px;
+        margin: auto;
+        background-color: lightcoral;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .item {
+        width: 250px;
+        margin: 5px;
+        background-color: wheat;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .images {
+        width: 960px;
+        margin: auto;
+        display: flex;
+        background-color: springgreen;
+        justify-content: space-between;
+      }
+      .images__wrapper {
+        flex: 1;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+        border-color: gray;
+      }
+      .p {
+        width: 100%;
+        max-width: 960px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="p1.html">p1</a>
+      <a href="p2.html">p2</a>
+      <a href="p3.html">p3</a>
+    </nav>
+
+    <div class="wrap">
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+        tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Cumque, tenetur!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ut.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+        tenetur!
+      </div>
+
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+        earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+        tenetur!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+        earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+        tenetur!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+        earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+        tenetur!
+      </div>
+      <div class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+        earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+        tenetur!
+      </div>
+    </div>
+
+    <div class="p">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        facilis fugiat doloremque excepturi sed dolorum at odio dignissimos
+        laudantium earum!
+      </p>
+      <p>
+        Non velit exercitationem saepe sint perspiciatis amet nihil, aperiam ex
+        eos debitis ipsum natus doloremque, maxime, necessitatibus iste
+        praesentium ipsam?
+      </p>
+      <p>
+        Eveniet, quod nihil! Ratione beatae consequuntur pariatur eos dolores
+        dignissimos nam molestias eum nihil perspiciatis? Maxime suscipit
+        tempore placeat quas?
+      </p>
+      <p>
+        Nihil, iste pariatur? Quia deleniti ipsum adipisci animi, vero,
+        reprehenderit ducimus impedit illum iste mollitia, ut maiores eum saepe
+        soluta.
+      </p>
+      <p>
+        Et ea molestias voluptas, quae doloremque doloribus odit totam ipsa
+        voluptatibus, quo commodi tempore dolor, unde eveniet aspernatur ad.
+        Earum.
+      </p>
+    </div>
+
+    <div class="images">
+      <div class="images__wrapper">
+        <img src="https://picsum.photos/200/300/?=1"" />img1
+      </div>
+      <div class="images__wrapper">
+        <img src="https://picsum.photos/200/300/?=2" alt="" />img2
+      </div>
+      <div class="images__wrapper">
+        <img src="https://picsum.photos/200/300/?=3" alt="" />img3
+      </div>
+      <div class="images__wrapper">
+        <img src="https://picsum.photos/200/300/?=4"" />img4
+      </div>
+      <div class="images__wrapper">
+        <img src="https://picsum.photos/200/300/?=5"" />img5
+      </div>
+    </div>
+  </body>
+</html>
