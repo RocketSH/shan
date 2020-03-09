@@ -1,0 +1,28 @@
+.wrap {
+    width: 960px;
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+    margin: auto;
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+}
+
+.item {
+    /* margin: 10px; */
+    height: 100px;
+    width: 100px;
+
+}
+
+.i1 {
+    background-color: red;
+}
+
+.i2 {
+    background-color: green;
+}
+
+.i3 {
+    background-color: yellow;
+}

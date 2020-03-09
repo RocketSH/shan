@@ -1,5 +1,5 @@
 * {
-  color: rgb(96, 141, 96);
+  color: rgb(58, 107, 58);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -55,4 +55,32 @@ nav a {
   display: inline-block;
   padding: 10px 30px;
   border-radius: 10px;
+}
+
+.box {
+  width: 400px;
+  text-align: center;
+}
+
+.margin {
+  border: 5px dashed black;
+}
+
+.border {
+  border: 5px solid orange;
+}
+
+.padding {
+  border: 5px solid yellow;
+
+}
+
+.content {
+  border: 5px solid green;
+}
+
+.table strong,
+th,
+td {
+  color: #000;
 }

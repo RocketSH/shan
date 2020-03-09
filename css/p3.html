@@ -4,27 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>page 3</title>
-
+    <link rel="stylesheet" href="reset_normalize.css">
     <style>
       * {
         margin: 0;
         padding: 0;
       }
+
       .container {
-        color: rgb(245, 240, 243);
+        text-align: center;
+      }
+      .wrap {
+        color: rgb(24, 23, 23);
         width: 960px;
-        height: 180px;
-        background-color: darkseagreen;
+        height: 600px;
+        /* background-color: darkseagreen; */
         margin: auto;
+        display: flex;
       }
 
-      .column {
-        width: 240px;
-        background-color: hotpink;
-        float: left;
+      .item_group {
+        width: 220px;
         margin: 10px;
         padding: 10px;
-        border-radius: 10px;
+      }
+
+      .item_group h2{
+        text-align: center;
+      }
+      .item_group img {
+      
+        width: 100%;
       }
     </style>
   </head>
@@ -34,23 +44,38 @@
       <a href="p2.html">p2</a>
       <a href="p4.html">p4</a>
     </nav>
-    <h1>page 3</h1>
-    <div class="container"">
-      <div class="column">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum deleniti
-        nihil quia vitae molestiae? Blanditiis facere, inventore corporis enim
-        dicta, ex in alias minus dolores ad fuga minima distinctio?
+    <div class="container">
+      <h1>關於</h1>
+      <div class="wrap"">
+        <div class="item_group">
+          <img src="https://picsum.photos/200/300/?=2" alt="" />
+          <h2>網頁設計</h2>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus assumenda similique sequi officia unde sint culpa molestiae repellendus est amet!
+        </div>
+        <div class="item_group">
+          <img src="https://picsum.photos/200/300/?=2" alt="" />
+          <h2>頂尖設計</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum deleniti
+          nihil quia vitae molestiae? Blanditiis facere, inventore corporis enim
+          dicta, ex in alias minus dolores ad fuga minima distinctio?
+        </div>
+        <div class="item_group">
+          <img src="https://picsum.photos/200/300/?=2" alt="" />
+          <h2>技術顧問</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum deleniti
+          nihil quia vitae molestiae? Blanditiis facere, inventore corporis enim
+          dicta, ex in alias minus dolores ad fuga minima distinctio?
+        </div>
+        <div class="item_group">
+          <img src="https://picsum.photos/200/300/?=2" alt="" />
+          <h2>社群經營</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum deleniti
+          nihil quia vitae molestiae? Blanditiis facere, inventore corporis enim
+          dicta, ex in alias minus dolores ad fuga minima distinctio?
+        </div>
       </div>
-      <div class="column">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum deleniti
-        nihil quia vitae molestiae? Blanditiis facere, inventore corporis enim
-        dicta, ex in alias minus dolores ad fuga minima distinctio?
-      </div>
-      <div class="column">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum deleniti
-        nihil quia vitae molestiae? Blanditiis facere, inventore corporis enim
-        dicta, ex in alias minus dolores ad fuga minima distinctio?
-      </div>
+
     </div>
+    
   </body>
 </html>

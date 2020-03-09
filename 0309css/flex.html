@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <style>
+      .wrap {
+        width: 960px;
+        background-color: darkgrey;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .item {
+        width: 300px;
+        margin: 10px;
+        height: 300px;
+        /* flex-shrink: 0; */
+      }
+
+      .i1,
+      .i4 {
+        background-color: red;
+      }
+
+      .i2,
+      .i5 {
+        background-color: green;
+        /* flex-grow: 1; */
+      }
+
+      .i3,
+      .i6 {
+        background-color: yellow;
+        /* flex-grow: 1; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="item i1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. placeat vero
+        repellendus.
+      </div>
+      <div class="item i2">
+        Quidem accusamus beatae aut id? Dolor repudiandae dicta magni
+        doloremque, quisquam minima neque enim maxime consequuntur mollitia est
+        dolore beatae.
+      </div>
+      <div class="item i3">
+        Ducimus voluptatum, perferendis accusamus cum laborum dicta soluta ipsa,
+        quasi quam rerum qui ipsam debitis minima enim quibusdam, voluptatem
+        necessitatibus!
+      </div>
+      <div class="item i4">
+        Ducimus voluptatum, perferendis accusamus cum laborum dicta soluta ipsa,
+        quasi quam rerum qui ipsam debitis minima enim quibusdam, voluptatem
+        necessitatibus!
+      </div>
+      <div class="item i5">
+        Ducimus voluptatum, perferendis accusamus cum laborum dicta soluta ipsa,
+        quasi quam rerum qui ipsam debitis minima enim quibusdam, voluptatem
+        necessitatibus!
+      </div>
+      <div class="item i6">
+        Ducimus voluptatum, perferendis accusamus cum laborum dicta soluta ipsa,
+        quasi quam rerum qui ipsam debitis minima enim quibusdam, voluptatem
+        necessitatibus!
+      </div>
+    </div>
+  </body>
+</html>
