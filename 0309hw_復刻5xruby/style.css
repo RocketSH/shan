@@ -1,24 +1,29 @@
 * {
   color: rgb(85, 85, 85);
 }
+
 .body {
   padding-top: 60px;
   width: 960px;
 }
+
 .nav_bar {
   border: rgb(217, 8, 69) solid;
   display: flex;
   justify-content: space-between;
   /* background-color: blue; */
 }
+
 .logo {
   padding: 10px;
 }
+
 .menu {
   /* justify-content: flex-end; */
   /* position: relative; */
   /* content-align: flex-end; */
 }
+
 .menu a {
   text-decoration: none;
   color: rgb(119, 119, 119);
@@ -36,12 +41,14 @@
   display: flex;
   justify-content: center;
 }
-.banner img {
-}
+
+.banner img {}
+
 .about {
   padding: 10px;
   margin: 10px;
 }
+
 .item_group_about {
   display: flex;
   justify-content: center;
@@ -50,6 +57,7 @@
 h3 {
   font-size: 24px;
 }
+
 .title {
   text-align: center;
 }
@@ -58,12 +66,14 @@ h3 {
   color: rgb(217, 8, 69);
   font-size: 50px;
 }
+
 .item_about {
   margin: 10px;
   width: 220px;
   text-align: center;
   /* background-color: rgb(217, 8, 69); */
 }
+
 .item_about img {
   padding: 10px;
 }
@@ -72,22 +82,34 @@ h3 {
   font-size: 16px;
   padding: 10px;
 }
+
 .hot {
   padding: 10px;
   margin: 10px;
 }
+
 .item_group_hot {
   display: flex;
   justify-content: center;
   margin: 10px;
-  padding: 20px;
+  padding: 0 200px;
 }
+
 .item_hot {
+  border-color: 999999;
+  border: 5px;
+  margin: 20px;
 }
+
+.item_hot img {
+  width: 100%;
+}
+
 .hot .more p {
   color: white;
   font-size: 18px;
 }
+
 .more {
   width: 15%;
   text-align: center;
@@ -95,5 +117,96 @@ h3 {
   padding: 15px 35px;
   margin: 24px;
   border-radius: 5px;
+  margin: auto;
+}
+
+.commendation {
+  background-color: #f7f7f7;
+  padding: 50px;
+  margin: 30px 0;
+  height: 400px;
+}
+
+.item_group_commendation {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  border-radius: 100px;
+}
+
+.member-tex {
+  width: 345px;
+  height: 120px;
+}
+
+.commendation span {
+  color: #d90846;
+  font-size: 24px;
+}
+
+.item_group_showcase {
+  display: flex;
+  margin: auto;
+  padding: 0 50px;
+  justify-content: center;
+
+}
+
+.item_showcase {
+  width: 330px;
+  margin: 15px;
+  border: 1px solid #dddddd;
+  padding: 24px 1px 10px;
+
+}
+
+.item_showcase img {
+  width: 100%;
+}
+
+.item_showcase span {
+  padding: 0 10px;
+}
+
+.item_showcase p {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.item_showcase div {
+  padding: 10px;
+  margin: 3px 0;
+  font-size: 18px;
+}
+
+.container {
+  padding: 24px;
+
+}
+
+.container h3 {}
+
+
+.text {
+
+  padding: 30px;
+  width: 690px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.text a {
+  color: #d90846;
+}
+
+.social_media {
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
   margin: auto;
 }
