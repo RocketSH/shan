@@ -105,12 +105,12 @@ h3 {
   width: 100%;
 }
 
-.hot .more p {
+.hot .more_redbox p {
   color: white;
   font-size: 18px;
 }
 
-.more {
+.more_redbox {
   width: 15%;
   text-align: center;
   background-color: rgb(217, 8, 69);
@@ -204,9 +204,29 @@ h3 {
 }
 
 .social_media {
-
   display: flex;
   justify-content: space-evenly;
   width: 250px;
   margin: auto;
+  padding: 0 0 30px;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px 100px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin: 10px;
+}
+
+.b1 img {
+  width: 150px;
+}
+
+.b1 a {
+  flex-wrap: wrap;
 }
