@@ -1,8 +1,10 @@
+* {
+  color: rgb(85, 85, 85);
+}
 .body {
   padding-top: 60px;
   width: 960px;
 }
-
 .nav_bar {
   border: rgb(217, 8, 69) solid;
   display: flex;
@@ -13,11 +15,9 @@
   padding: 10px;
 }
 .menu {
-  justify-content: flex-end;
-  /* position: fixed; */
-  /* padding-top: 0;
-  padding-right: 0; */
-  /* width: 100%; */
+  /* justify-content: flex-end; */
+  /* position: relative; */
+  /* content-align: flex-end; */
 }
 .menu a {
   text-decoration: none;
@@ -30,4 +30,70 @@
 
 .menu a:hover {
   color: rgb(217, 8, 69);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+}
+.about {
+  padding: 10px;
+  margin: 10px;
+}
+.item_group_about {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 24px;
+}
+.title {
+  text-align: center;
+}
+
+.title p {
+  color: rgb(217, 8, 69);
+  font-size: 50px;
+}
+.item_about {
+  margin: 10px;
+  width: 220px;
+  text-align: center;
+  /* background-color: rgb(217, 8, 69); */
+}
+.item_about img {
+  padding: 10px;
+}
+
+.item_about p {
+  font-size: 16px;
+  padding: 10px;
+}
+.hot {
+  padding: 10px;
+  margin: 10px;
+}
+.item_group_hot {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+}
+.item_hot {
+}
+.hot .more p {
+  color: white;
+  font-size: 18px;
+}
+.more {
+  width: 15%;
+  text-align: center;
+  background-color: rgb(217, 8, 69);
+  padding: 15px 35px;
+  margin: 24px;
+  border-radius: 5px;
+  margin: auto;
 }
