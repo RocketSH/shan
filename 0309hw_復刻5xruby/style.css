@@ -3,34 +3,33 @@
 }
 
 .body {
-  padding-top: 60px;
   width: 960px;
 }
 
 .nav_bar {
-  border: rgb(217, 8, 69) solid;
+  position: fixed;
+  background-color: #fff;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.nav {
+  padding: 10px;
   display: flex;
   justify-content: space-between;
-  /* background-color: blue; */
 }
 
 .logo {
   padding: 10px;
 }
 
-.menu {
-  /* justify-content: flex-end; */
-  /* position: relative; */
-  /* content-align: flex-end; */
-}
-
 .menu a {
   text-decoration: none;
-  color: rgb(119, 119, 119);
+  color: rgb(77, 75, 75);
   font-size: 14.4px;
   display: inline-block;
-  padding: 25px 20px;
-  /* background-color: rgb(217, 8, 69); */
+  padding: 25px 10px;
+  transition: 0.3s ease-in-out;
 }
 
 .menu a:hover {
@@ -38,11 +37,10 @@
 }
 
 .banner {
+  padding-top: 80px;
   display: flex;
   justify-content: center;
 }
-
-.banner img {}
 
 .about {
   padding: 10px;
@@ -66,12 +64,15 @@ h3 {
   color: rgb(217, 8, 69);
   font-size: 50px;
 }
-
+.about {
+  background-color: #f7f7f7;
+}
 .item_about {
-  margin: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  margin: 0px;
   width: 220px;
   text-align: center;
-  /* background-color: rgb(217, 8, 69); */
 }
 
 .item_about img {
@@ -105,12 +106,12 @@ h3 {
   width: 100%;
 }
 
-.hot .more_redbox p {
+.hot .more_red-box p {
   color: white;
   font-size: 18px;
 }
 
-.more_redbox {
+.more_red-box {
   width: 15%;
   text-align: center;
   background-color: rgb(217, 8, 69);
@@ -151,7 +152,6 @@ h3 {
   margin: auto;
   padding: 0 50px;
   justify-content: center;
-
 }
 
 .item_showcase {
@@ -159,7 +159,6 @@ h3 {
   margin: 15px;
   border: 1px solid #dddddd;
   padding: 24px 1px 10px;
-
 }
 
 .item_showcase img {
@@ -183,14 +182,9 @@ h3 {
 
 .container {
   padding: 24px;
-
 }
 
-.container h3 {}
-
-
 .text {
-
   padding: 30px;
   width: 690px;
   margin: auto;
@@ -229,4 +223,59 @@ h3 {
 
 .b1 a {
   flex-wrap: wrap;
+}
+
+.footer_bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.footer_bar a:hover {
+  color: #d90846;
+}
+
+.wrap {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+
+.b2_1_tel {
+  padding: 10px;
+}
+
+.b2 span {
+  color: #d90846;
+  font-size: 21px;
+}
+
+.b2 {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.b2 a {
+  text-decoration: none;
+}
+
+.question p {
+  padding: 10px 0;
+}
+
+.email a {
+  padding: 10px 0;
+}
+
+.address p {
+  padding: 10px 0;
+}
+
+.b3 {
+  background-color: #e6e6e6;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 20px 50px;
 }
