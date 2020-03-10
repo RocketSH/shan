@@ -58,6 +58,7 @@ nav a {
 }
 
 .box {
+  background-color: rgb(217, 8, 69);
   width: 400px;
   text-align: center;
 }
