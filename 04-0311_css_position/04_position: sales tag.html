@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04_position: sales tag</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .item {
+        width: 300px;
+        border: 3px solid #cccccc;
+        padding: 20px;
+        margin: 20px;
+        position: relative;
+      }
+      .sale {
+        background-color: orange;
+        color: red;
+        padding: 5px 10px;
+        position: absolute;
+        left: -10px;
+        top: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item">
+      <div class="sale">
+        5折
+      </div>
+      <img src="https://fakeimg.pl/250x100/" />
+      <h3>title</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id ullam
+        perferendis officiis eveniet omnis inventore doloremque dolorum non
+        quasi.
+      </p>
+    </div>
+  </body>
+</html>
