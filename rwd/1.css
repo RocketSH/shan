@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.item {
+    margin: 0 10px 20px;
+    background-color: #ffa;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .wrap {
+        display: flex;
+    }
+
+    .item {
+        width: 33.3333%;
+    }
+}
