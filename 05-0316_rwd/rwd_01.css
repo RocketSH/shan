@@ -8,7 +8,7 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-
+    /* display: flex; */
 }
 
 .item {
@@ -17,12 +17,25 @@
     padding: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .wrap {
-        display: flex;
+        /* display: flex; */
     }
 
     .item {
-        width: 33.3333%;
+        /* width: 33.3333%; */
+        background-color: #aaf;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrap {
+        display: flex;
+
+    }
+
+    .item {
+        /* width: 33.3333%; */
+        background-color: #aff;
     }
 }

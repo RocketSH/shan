@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hover-txt display_none</title>
+    <style>
+      .card {
+        width: 200px;
+        /* background-color: red; */
+        position: relative;
+      }
+
+      .card img {
+        vertical-align: top;
+      }
+
+      .card .txt {
+        position: absolute;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        opacity: 0;
+        transition: 1s;
+        /* display: none; */
+      }
+      .card:hover .txt {
+        /* display: block; */
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="https://picsum.photos/200/300" alt="" />
+      <div class="txt">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quam
+        impedit doloribus commodi repellat, velit at enim quas ullam animi.
+      </div>
+    </div>
+
+    <div>
+      <p>transition可以控制所有數值類的屬性，ex. color, width...etc</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pesudoclass_偽類</title>
+    <style>
+      a:link {
+        border: 1px solid red;
+      }
+      a:visited {
+        border: 1px solid pink;
+      }
+      a:focus {
+        border: 1px solid yellow;
+        outline: none;
+      }
+
+      a:hover {
+        border: 1px solid green;
+      }
+
+      a:active {
+        border: 10px solid #000000;
+      }
+      /* focus for disable people */
+    </style>
+  </head>
+  <body>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <!-- shadowdom -->
+    <p>
+      11:37 <br />
+      Q:為什麼focus要放在hover上面 <br />
+      A:
+    </p>
+
+    <p>sudoclass_偽類，有：的東東 也是一個class 所以優先權＝class</p>
+  </body>
+</html>
