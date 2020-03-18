@@ -1,89 +1,104 @@
 * {
     padding: 0;
-    width: 0;
+    margin: 0;
     list-style: none;
 }
 
-.wrap {
-    /* margin: auto; */
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #000;
-    max-width: 1200px;
-}
 
 .col-1 {
+    margin-bottom: 20px;
     width: 100%;
-    background-color: #f00;
-    height: 100px;
+    box-sizing: border-box;
+    padding: 0 15px;
 }
 
 .col-2 {
     margin-bottom: 20px;
+    width: 50%;
     box-sizing: border-box;
     padding: 0 15px;
-    width: 50%;
-    background-color: #faa;
-    height: 100px;
 }
 
 .col-3 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 33.333333%;
-    background-color: #aaf;
-    height: 100px;
 }
 
 .col-4 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 25%;
-    background-color: #afa;
-    height: 100px;
 }
 
 .col-5 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 20%;
-    background-color: #a0f;
-    height: 100px;
 }
 
 .col-6 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 16.666667%;
-    background-color: #aff;
-    height: 100px;
 }
 
 .col-7 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 14.285714%;
     background-color: #00a;
     height: 100px;
 }
 
 .col-8 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 12.5%;
-    background-color: #f0a;
-    height: 100px;
 }
 
 .col-9 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 11.111111%;
-    background-color: #fa0;
-    height: 100px;
     %
 }
 
 .col-10 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 10%;
-    background-color: #45ff;
-    height: 100px;
 }
 
-.col-11 {
+/* .col-11 
+    box-sizing: border-box; padding: 0 15px;
     width: 9.090909%;
-    background-color: #aaa;
-    height: 100px;
-}
+} */
 
 .col-12 {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
     width: 8.333333%;
-    background-color: rgb(202, 142, 11);
+}
+
+.wrap {
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 1200px; */
+}
+
+.item {
+    width: 100%;
     height: 100px;
+    background-color: #f00;
 }

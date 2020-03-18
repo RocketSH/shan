@@ -1,0 +1,11 @@
+input:checked {
+    transform: scale(2);
+}
+
+/* input:checked+label { */
+color: red;
+}
+
+/* input:checked+label+p {
+    color: red;
+} */

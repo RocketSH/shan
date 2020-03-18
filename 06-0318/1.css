@@ -1,0 +1,15 @@
+* {}
+
+.wrap {
+    width: auto;
+    margin: auto;
+    outline: 1px solid red;
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    height: 0;
+    padding-bottom: 50%;
+    background-color: #ccc;
+}

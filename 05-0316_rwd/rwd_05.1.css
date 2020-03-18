@@ -5,7 +5,8 @@
 }
 
 .wrap {
-    width: 100vw;
+    max-width: 1200px;
+    margin: auto;
     top: 0;
     bottom: 0;
     left: 0;
@@ -47,10 +48,6 @@
 
 
 @media screen and (min-width: 992px) {
-    .wrap {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     .item {
         width: 31.380205%;
@@ -60,12 +57,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .wrap {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        max-width: 1200px;
-    }
+
 
     .item {
         width: 15%;
