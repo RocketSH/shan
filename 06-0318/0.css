@@ -4,6 +4,14 @@
     margin: 0;
 }
 
+#menu_control {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+
 .main-header {
     height: 50px;
     background-color: #faa;
@@ -15,6 +23,7 @@
 .logo {
     width: 50px;
     height: 50px;
+    margin-left: 10px;
 }
 
 .logo img {
@@ -26,13 +35,69 @@
     height: 40px;
     background-color: #000;
     display: block;
-
     position: absolute;
     top: 5px;
-    right: 0;
+    right: 10px;
+
 }
 
-..menu_btn span {
+.menu_btn span {
     opacity: 0;
-    color: seashell;
+    width: 1px;
+    height: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+.menu_btn::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 36px;
+    left: 2px;
+    background-color: #aaa;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 0px 8px 0px #aaa,
+        0px -8px 0px #aaa;
+}
+
+.main-nav {
+    width: 80%;
+    height: calc(100vh - 50px);
+    background-color: #fcc;
+    position: absolute;
+    top: 50px;
+    left: -100%;
+    transition: .6s;
+}
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+#menu_control:checked~.main-header nav {
+    left: 0;
+}
+
+@media screen and (min-width:768px) {
+    .menu_btn {
+        display: none;
+    }
+
+    .main-header {
+        display: flex;
+    }
+
+    .main-nav {
+        position: relative;
+        left: 0;
+        display: flex;
+        width: auto;
+        height: auto;
+    }
 }

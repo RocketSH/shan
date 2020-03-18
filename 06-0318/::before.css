@@ -1,0 +1,29 @@
+/* p {
+    color: red;
+    background-color: #ccc;
+}
+
+p::before {
+    content: 'I\'m before';
+    color: green;
+    display: block;
+}
+
+p::after {
+    content: 'I\'m after';
+    color: blueviolet;
+    display: block;
+} */
+h1 {
+    text-align: center;
+    ground-color: #cccccc;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #f00;
+    margin: auto;
+}
