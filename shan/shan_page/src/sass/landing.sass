@@ -8,3 +8,56 @@
 
 .landing__hero
     margin: auto
+
+.menu
+    position: fixed
+    top: 1.5rem
+    color: #ffffff
+    width: 100%
+
+    .container
+        display: flex
+        height: $menu-height
+        line-height: $menu-height
+    a
+        text-decoration: none
+        padding: 0 10px
+        color: inherit
+        display: inline-block
+        margin-right: 10px
+        height: $menu-height
+        transition: .2s ease-in-out
+        &:hover
+            background-color: transparentize(white, .8)
+.logo
+    font-size: 1.2em
+    font-weight: 300
+.logo__tours
+    font-weight: 700
+
+.menu__right
+    margin-left: auto
+    text-transform: uppercase
+
+=cta-background($bg)
+    background: transparentize($bg, .5)
+    transition: .2s ease-in-out
+    &:hover
+        background: transparentize($bg, .2)
+
+a.menu__cta
+    border-radius: $menu-height/2
+    color: black
+    margin-right: 0
+    +cta-background(white)
+
+.landing__cta
+    border-radius: $menu-height/2
+    height: $menu-height
+    line-height: $menu-height
+    display: inline-block
+    padding: 0 10px
+    color: white
+    text-transform: uppercase
+    text-decoration: none
+    +cta-background(black)
