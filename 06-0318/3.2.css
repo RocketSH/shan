@@ -9,13 +9,14 @@
 }
 
 .main-header {
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     background-color: #ffa;
     position: relative;
 }
+
 
 .logo img {
     vertical-align: middle;
@@ -70,6 +71,7 @@
     }
 
     .main-nav a+a {
-        border-top: none;
+        border: none;
+        align-items: center;
     }
 }
