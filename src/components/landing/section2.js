@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 export default () => (
   <section className="landing_section" id="section2">

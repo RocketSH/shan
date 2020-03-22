@@ -1,9 +1,10 @@
 .landing_section
-    height: 100vh
+    min-height: 100vh
     display: flex
     flex-direction: column
     align-items: center
     justify-content: center
+    padding: 5rem 0
 
 #landing1
     background-image: url(/bg.jpg)
@@ -15,7 +16,7 @@
 .menu
     position: fixed
     top: 1.5rem
-    color: #ffffff
+    color: $white
     width: 100%
 
     .container
@@ -29,12 +30,10 @@
         display: inline-block
         margin-right: 10px
         height: $menu-height
-        transition: .2s ease-in-out
+        transition: .3s ease-in-out
         &:hover
-            background-color: transparentize(white, .8)
-.logo
-    font-size: 1.2em
-    font-weight: 300
+            background-color: transparentize($white, .7)
+
 .logo__tours
     font-weight: 700
 
@@ -52,7 +51,7 @@ a.menu__cta
     border-radius: $menu-height/2
     color: black
     margin-right: 0
-    +cta-background(white)
+    +cta-background($white)
 
 .landing__cta
     border-radius: $menu-height/2
@@ -60,7 +59,40 @@ a.menu__cta
     line-height: $menu-height
     display: inline-block
     padding: 0 10px
-    color: white
+    color: $white
     text-transform: uppercase
     text-decoration: none
     +cta-background(black)
+
+.section5
+    background-image: url(http://template65287.motopreview.com/mt-demo/65200/65287/mt-content/uploads/2017/10/mt-1223-content-bg01.jpg)
+    background-repeat: none
+    background-attachment: fixed
+    height: 50vh
+    width: 100vw
+    display: flex
+
+    .cite
+        color: #ffffff
+        text-transform: uppercase
+        width: 50vw
+        margin: auto
+        text-justify: center
+        position: relative
+        h3
+            font-size: 2rem
+    .cite:before
+        position: absolute
+        content: " "
+        background-color: $white
+        display: block
+        width: 5em
+        height: 2px
+        left: -150px
+        top: 15px
+
+    .cite_text
+        text-transform: none
+        padding: 10px 0
+    .cite_author
+        font-weight: bold

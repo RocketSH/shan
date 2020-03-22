@@ -3,9 +3,11 @@
 @import landing
 @import columns
 @import content_with_title
+@import footer
 
 body
     font-family: $font-body
+    overflow-x: hidden
 
 h1
     font-family: $font-hl
@@ -17,3 +19,7 @@ h1
 
 .container.container--fluid
     width: auto
+
+.map
+    iframe
+        width: 100%

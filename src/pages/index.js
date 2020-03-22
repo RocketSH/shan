@@ -7,6 +7,9 @@ import Menu from "../components/landing/menu"
 import Section2 from "../components/landing/section2"
 import Section3 from "../components/landing/section3"
 import Section4 from "../components/landing/section4"
+import Section5 from "../components/landing/section5"
+import Section6 from "../components/landing/section6"
+import Footer from "../components/landing/footer"
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +19,9 @@ const IndexPage = () => (
     <Section2 />
     <Section3 />
     <Section4 />
+    <Section5 />
+    <Section6 />
+    <Footer />
   </Layout>
 )
 
